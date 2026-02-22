@@ -1,0 +1,95 @@
+html, body {
+			 
+			font-size: 18px;
+           	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+            -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+}
+
+.bg-gradient-x-grey-blue {
+	background-image: -webkit-gradient(linear, left top, right top, from(#404E67),
+		to(#6F85AD));
+	background-image: -webkit-linear-gradient(left, #404E67 0, #6F85AD 100%);
+	background-image: -moz-linear-gradient(left, #404E67 0, #6F85AD 100%);
+	background-image: -o-linear-gradient(left, #404E67 0, #6F85AD 100%);
+	background-image: linear-gradient(to right, #404E67 0, #6F85AD 100%);
+	background-repeat: repeat-x;
+}
+@media only screen and (max-width: 1370px) {
+	#parent {
+		height: 470px;
+	}	
+}
+@media only screen and (min-width: 1400px) {
+	#parent {
+		height: 450px;
+	}	
+}
+.actual-color {
+	background: #9ACD32;
+	color: white;
+}
+
+.detailed-desc {
+	background: #6A5ACD;
+	color: white;
+}
+
+.demand-color {
+	background: #0768a4;
+	color: white;
+}
+
+.next18mos-color {
+	background-color: #7ac8f9;
+}
+
+.proposal-sub {
+	background: #FFC0CB;
+	color: white;
+}
+
+table {
+	width: 100%;
+	font-size: .8rem;
+}
+
+
+
+.table td, .table th {
+		vertical-align: middle;
+	border-top: 1px solid #dee2e6;
+}
+
+.colspan-heading {
+	text-align: center;
+}
+
+.pretty {
+	font-size: .6rem;
+	line-height: 1.08;
+}
+
+.showHide {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.custom-checkbox-margin-top {
+    margin-top: -8px;
+}
+.hideShowHeading {
+	font-size: 0.9rem;
+}
+
+.grandTotal{
+    font-weight: bold;
+    background-color: rgb(218, 219, 219);
+
+}
+.grandTotal td,th{
+	padding: 0;
+	vertical-align: middle;
+}

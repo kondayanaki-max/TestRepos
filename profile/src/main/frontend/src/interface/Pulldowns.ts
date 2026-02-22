@@ -1,0 +1,20 @@
+export default interface Pulldowns{
+  recipeVipakaTastes: Array<{value:string , key:number}>;
+  recipeMetrics: Array<{value:string , key:number}>;
+  timeMetrics: Array<{value:string , key:number}>;
+  languages: Array<{value:string , key:number}>;
+  doshaDathues: Array<{value:string , key:number}>;
+  doshaDathuEffects: Array<{value:string , key:number}>;
+  specialBehaviours: Array<{value:string , key:number}>;
+  mindBehaviours: Array<{value:string , key:number}>;
+  prayatnaBehaviours: Array<{value:string , key:number}>;
+  recipeStates: Array<{value:string , key:number}>;
+  bodyTypes: Array<{value:string , key:number}>;
+  recipeSpecialUses: Array<{value:string , key:number}>;
+  recipeTastes: Array<{value:string , key:number}>;
+  recipeTypes: Array<{value:string , key:number}>;
+  recipeSubTypes: Array<{value:string , key:number}>;
+  recipeParts: Array<{value:string , key:number}>;
+  seasons: Array<{value:string , key:number}>;
+  recipePlaces: Array<{value:string , key:number}>;  
+}
